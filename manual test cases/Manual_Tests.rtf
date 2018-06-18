@@ -1,0 +1,595 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset204 PTSans-Regular;\f2\fnil\fcharset0 LucidaGrande;
+}
+{\colortbl;\red255\green255\blue255;\red52\green52\blue52;\red224\green224\blue224;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww22660\viewh13120\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Mobile Assignment Manual Test Cases
+\b0 \
+\
+Test Scope: Search Functionality \
+\
+
+\b General Prerequisites
+\b0 \
+\
+1. In the absence of physical devices, tests should be run on a varied selection of emulated Android OS versions and Android Devices.\
+\
+According to Fossbytes.com; the most popular android OS versions are as follows:\
+\
+\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat1 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4700\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3800\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+
+\f1\b\fs34 \cf2 \expnd0\expndtw0\kerning0
+Android Name\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 Android Version\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 Usage Share\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat1 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4700\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3800\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+
+\b0 \cf2 Nougat\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 7.0, 7.1\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 31.1%
+\f2 \uc0\u8593 
+\f1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat1 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4700\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3800\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 Marshmallow\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 6.0\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 25.5%
+\f2 \uc0\u8595 
+\f1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat1 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4700\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3800\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 Lollipop\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 5.0, 5.1\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 22.4%
+\f2 \uc0\u8595 
+\f1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat1 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4700\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3800\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 KitKat\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 4.4\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 10.3%
+\f2 \uc0\u8595 
+\f1 \cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat1 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth4280\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx2880
+\clvertalc \clshdrawnil \clwWidth4700\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx5760
+\clvertalc \clshdrawnil \clwWidth3800\clftsWidth3 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadt40 \clpadl160 \clpadb40 \clpadr160 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 Oreo\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 8.0, 8.1\cell 
+\pard\intbl\itap1\pardeftab720\sl440\partightenfactor0
+\cf2 5.7%
+\f2 \uc0\u8593 
+\f1 \cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+Source: {\field{\*\fldinst{HYPERLINK "https://fossbytes.com/most-popular-android-versions-always-updated/"}}{\fldrslt https://fossbytes.com/most-popular-android-versions-always-updated/}}\
+\
+2. Assumptions are made about the precise expectations of the apps search functionality:\
+\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	\'95	}The search is not case sensitive\
+{\listtext	\'95	}Every city should lead to precise location on the map using longitude and latitude coordinates \
+{\listtext	\'95	}The search will accept any character type\
+{\listtext	\'95	}There should not be duplicates of cities in the list\
+{\listtext	\'95	}Results should appear after the first character is entered\
+{\listtext	\'95	}Results should appear promptly\
+{\listtext	\'95	}Results should be in alphabetical order\
+{\listtext	\'95	}Results should only show Cities\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Manual Tests Cases
+\b0 \
+\
+
+\b ID: 1
+\b0 \
+
+\b Test:
+\b0  Search for a city with lower case characters\
+\
+
+\b Prerequisites
+\b0 \
+\
+1. The Mobile App is running\
+2. Location services are running\
+3. Wifi is connected\
+\
+
+\b Steps
+\b0 \
+\
+1. Tap on the search field\
+
+\i 	The text cursor should appear in the search field
+\i0 \
+\
+2. Type the letter \'91l\'92 in lower case\
+
+\i 	The Automatic Results should show every city beginning with \'91l\'92 in either lower or upper case\
+	Results should be in alphabetical order
+\i0 \
+\
+3. Continue the search by typing \'91london\'92\
+
+\i 	All cities beginning with \'91london\'92 should be listed
+\i0 \
+\
+4. Complete the search by typing \'91london, gb\'92\
+
+\i 	A single row should be returned: \'91London, GB\'92\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 \
+5. Tap the search result\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf0 	The Map should be opened\
+	London, GB should be shown on the map\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 6. Tap the Back button\
+	
+\i The user should be returned to the previous search result \'91London, GB\'92
+\i0 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Expected Results
+\b0 \
+\
+Lower case characters should return results\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+
+\b ID: 2
+\b0 \
+
+\b Test:
+\b0  Search for a city with upper case characters\
+\
+
+\b Prerequisites
+\b0 \
+\
+1. The Mobile App is running\
+2. Location services are running\
+3. Wifi is connected\
+\
+
+\b Steps
+\b0 \
+\
+1. Tap on the search field\
+
+\i 	The text cursor should appear in the search field
+\i0 \
+\
+2. Type the letter \'91L\'92 in upper case\
+
+\i 	The Automatic Results should show every city beginning with \'91L\'92 in either lower or upper case\
+	Results should be in alphabetical order
+\i0 \
+\
+3. Continue the search by typing \'91LONDON\'92\
+
+\i 	All cities beginning with \'91\'92LONDON\'92 should be listed
+\i0 \
+\
+4. Complete the search by typing \'91LONDON, GB\'92\
+
+\i 	A single row should be returned: \'91London, GB\'92\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 \
+5. Tap the search result\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf0 	The Map should be opened\
+	London, GB should be shown on the map\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 6. Tap the Back button\
+	
+\i The user should be returned to the previous search result \'91London, GB\'92
+\i0 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Expected Results
+\b0 \
+\
+Upper case characters should return results\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+
+\b ID: 3
+\b0 \
+
+\b Test:
+\b0  Search for a city with special characters\
+\
+
+\b Prerequisites
+\b0 \
+\
+1. The Mobile App is running\
+2. Location services are running\
+3. Wifi is connected\
+\
+
+\b Steps
+\b0 \
+\
+1. Tap on the search field\
+
+\i 	The text cursor should appear in the search field
+\i0 \
+\
+2. Type the special character \'91\'92\'92 (single quote) \
+
+\i 	The Automatic Results should show every city beginning with a single quote. EG: \'92t Hoeksken, BE\
+	Results should be in alphabetical order\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 3. Complete the search by typing: \'91
+\i t Hoeksken, BE
+\i0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf0 	A single row should be returned: \'92t Hoeksken, BE\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 \
+5. Tap the search result\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf0 	The Map should be opened\
+	\'92t Hoeksken, BE should be shown on the map\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 6. Tap the Back button\
+	
+\i The user should be returned to the previous search result: \'92t Hoeksken, BE
+\i0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Expected Results\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 Special characters should be accepted and return results\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 ID: 4
+\b0 \
+
+\b Test:
+\b0  Search for a city with numerical characters\
+\
+
+\b Prerequisites
+\b0 \
+\
+1. The Mobile App is running\
+2. Location services are running\
+3. Wifi is connected\
+\
+
+\b Steps
+\b0 \
+\
+1. Tap on the search field\
+
+\i 	The text cursor should appear in the search field
+\i0 \
+\
+2. Type the numeric character \'916\'92\
+
+\i 	The Automatic Results should show every city beginning with the number \'916\'92. EG: \'91665 Site Colonia, US\'92\
+	Results should be in alphabetical order\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 3. Complete the search by typing: \'91
+\i 665 Site Colonia, US\'92
+\i0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf0 	A single row should be returned: 665 Site Colonia, US\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 \
+5. Tap the search result\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf0 	The Map should be opened\
+	\'92665 Site Colonia, US\'92 should be shown on the map\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 6. Tap the Back button\
+	
+\i The user should be returned to the previous search result: \'91665 Site Colonia, US\'92
+\i0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Expected Results\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 Numerical characters should be accepted and return results\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 ID: 5
+\b0 \
+
+\b Test
+\b0 : Search for a city by editing the input and updating the automatic results\
+\
+
+\b Prerequisites
+\b0 \
+\
+1. The Mobile App is running\
+2. Location services are running\
+3. Wifi is connected\
+\
+
+\b Steps
+\b0 \
+\
+1. Tap on the search field\
+
+\i 	The text cursor should appear in the search field\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 2. Enter the following search input \'91Cardiff\'92\
+	
+\i Cities beginning with \'91Cardiff\'92 should be listed\
+	Cardiff, AU\
+	Cardiff, GB\
+\
+
+\i0 3. Delete the last 5 characters leaving just \'91Ca\'92\
+	
+\i Cities beginning with \'91Ca\'92 should be listed\
+\
+
+\i0 4. Type \'91pe Town\'92 to create an input search of \'91Cape Town\'92\
+	\'91
+\i Cape Town, ZA\'92 shown in the results\
+\
+
+\i0 5. Tap on the search result\
+	
+\i The Map should be opened\
+\
+
+\i0 6. Tap the Back button\
+	
+\i The user should be returned to the previous search result: \'91Cape Town, ZA\'92
+\i0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Expected Results\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 Editing the search input should update the search results\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 ID: 6
+\b0 \
+
+\b Test
+\b0 : Search for a non-city location\
+\
+
+\b Prerequisites
+\b0 \
+\
+1. The Mobile App is running\
+2. Location services are running\
+3. Wifi is connected\
+\
+
+\b Steps
+\b0 \
+\
+1. Tap on the search field\
+
+\i 	The text cursor should appear in the search field\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 2. Enter the following search input \'91Texas\'92\
+	
+\i Cities beginning with \'91Texas\'92 should be shown\
+	No locations other than Cities should be shown\
+\
+
+\i0 3. Delete the search input\
+	
+\i Empty search shown\
+	Full list of Cities available\
+\
+
+\i0 4. Type \'91Scotland\'92 into the search\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i \cf0 	Cities beginning with \'91Scotland\'92 should be shown\
+	No locations other than cities should be shown
+\i0 \
+\
+
+\b Expected Results\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b0 \cf0 Only Cities should appear in the search results. States, Counties, Countries and Territories should not be listed.\
+\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 ID: 7
+\b0 \
+
+\b Test: 
+\b0 Remove the search input and return to the full list\
+\
+
+\b Prerequisites
+\b0 \
+\
+1. The Mobile App is running\
+2. Location services are running\
+3. Wifi is connected\
+\
+
+\b Steps
+\b0 \
+\
+1. Tap on the search field\
+
+\i 	The text cursor should appear in the search field\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 2. Enter the following search input \'91Leeds\'92\
+	
+\i Cities beginning with \'91Leeds\'92 should be listed\
+\
+
+\i0 3. Delete the entire search input\
+	
+\i All cities should be listed in alphabetical order
+\i0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Expected Results
+\b0 \
+\
+When there is no specified search input, the full list of available cities should be shown in alphabetical order\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+
+\b ID: 8
+\b0 \
+
+\b Test:
+\b0  Search for a city with excessive character input\
+\
+
+\b Prerequisites
+\b0 \
+\
+1. The Mobile App is running\
+2. Location services are running\
+3. Wifi is connected\
+\
+
+\b Steps
+\b0 \
+\
+1. Tap on the search field\
+
+\i 	The text cursor should appear in the search field\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\i0 \cf0 2. Enter the following characters into the search \'91abcdefghijklmnopqrstuvwxyz123456789!@\'a3$%^&*()-=_+[]\{\};\'92\\:\'94|,./<>?`~\'a7 \'91\
+	
+\i No Search Results should be shown\
+	The App should continue to perform smoothly\
+\
+
+\i0 3. Delete all of the search characters\
+	
+\i All cities should be listed in alphabetical order
+\i0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\b \cf0 Expected Results
+\b0 \
+\
+The app should not slow or crash when an excessive search input has been entered\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+}

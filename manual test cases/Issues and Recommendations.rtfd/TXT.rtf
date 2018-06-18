@@ -1,0 +1,100 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww22660\viewh13120\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 Mobile Assignment Issues
+\b0 \
+\
+
+\b Issue 
+\b0 \
+\
+The \'91,\'92 special character is not recognised by the search\
+\
+
+\b Details
+\b0 \
+\
+When a user types the name of a city location into the search feature they should be able to specify the country in which the city is located. However, if the user follows the \
+results format and uses a coma \'91,\'92 their results go blank.\
+\
+
+\b Example
+\b0 \
+\
+Input: cardiff\
+Result: Cardiff, GB\
+\
+Input: cardiff, gb\
+Result: null\
+\
+
+\b Recommendation\
+\
+
+\b0 Allow the search to accept comas as part of the search string\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\
+
+\b Issue 
+\b0 \
+\
+Typing too quickly confuses the search and bad results are returned\
+\
+
+\b Details
+\b0 \
+\
+When a user types the name of a city location into the search feature too quickly it can confuse the search and undesired results are returned.\
+\
+
+\b Example
+\b0 \
+\
+Input: london\
+Expected Result: London, GB\
+\
+Input: london\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 {{\NeXTGraphic Screen Shot 2018-06-18 at 15.17.27.png \width6380 \height10800
+}¬}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+
+\b Recommendation\
+\
+
+\b0 Wait for 1 second after typing has stopped before starting the auto search functionality.\
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+\
+\
+
+\b Issue 
+\b0 \
+\
+Only Cities should be listed in search results. In this case, a state was listed.\
+\
+
+\b Details
+\b0 \
+\
+The app should show a list of cities for users to search and view on a map. However, there are a lot more locations than just cities i.e.: States and Countries\
+\
+
+\b Example
+\b0 \
+\
+Input: Texas\
+Result: Texas, US\
+\
+
+\b Recommendation\
+\
+
+\b0 Filter out results that are not Cities to prevent bad results.}
